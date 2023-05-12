@@ -2,7 +2,9 @@ declare namespace AliPay {
   /**
    * 支付状态码
    */
-  type ResultStatus = Record<number, string?>
+  interface ResultStatus {
+    [status: number]: string | undefined;
+  }
   /**
    * 支付宝 SDK 返回的信息
    *
