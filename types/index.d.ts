@@ -2,9 +2,8 @@ declare namespace AliPay {
   /**
    * 支付状态码
    */
-  interface ResultStatus {
-    [status: number]: string | undefined;
-  }
+  const ResultStatus: Record<number | string, string?>;
+
   /**
    * 支付宝 SDK 返回的信息
    *
