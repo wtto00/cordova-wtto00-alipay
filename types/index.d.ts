@@ -2,14 +2,7 @@ declare namespace AliPay {
   /**
    * 支付状态码
    */
-  interface ResultStatus {
-    9000: string;
-    8000: string;
-    4000: string;
-    6001: string;
-    6002: string;
-    6004: string;
-  }
+  type ResultStatus = Record<number, string?>
   /**
    * 支付宝 SDK 返回的信息
    *

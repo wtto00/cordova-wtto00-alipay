@@ -48,7 +48,11 @@ cordova plugin add git@github.com:wtto00/cordova-plugin-alipay.git --variable AP
        //TODO 服务器检查支付结果
      },
      (e) => {
-       console.log("支付失败" + e.resultStatus);
+       console.log(
+         `支付失败: ${
+           cordova.plugins.alipay.ResultStatus[e.resultStatus] || "未知错误"
+         }`
+       );
      }
    );
    ```
