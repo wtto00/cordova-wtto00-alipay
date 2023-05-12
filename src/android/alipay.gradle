@@ -1,0 +1,9 @@
+repositories{
+    google()
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+    api 'com.alipay.sdk:alipaysdk-android:+@aar'
+}
