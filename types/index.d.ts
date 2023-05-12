@@ -82,5 +82,5 @@ declare namespace AliPay {
 }
 
 interface CordovaPlugins {
-    alipay: {}
+    alipay: typeof AliPay
 }
