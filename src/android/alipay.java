@@ -55,7 +55,8 @@ public class alipay extends CordovaPlugin {
                 String resultInfo = payResult.getResult();// 同步返回需要验证的信息
                 String resultStatus = payResult.getResultStatus();
                 // 判断resultStatus 为9000则代表支付成功
-                if (TextUtils.equals(resultStatus, "9000")) {
+                if (TextUtils.equals(resultStatus, "9000") || TextUtils.equals(resultStatus, "8000")
+                        || TextUtils.equals(resultStatus, "6004")) {
                     // 该笔订单是否真实支付成功，需要依赖服务端的异步通知。
                     callbackContext.success(new JSONObject(result));
                 } else {
