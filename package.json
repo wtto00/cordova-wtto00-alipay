@@ -1,5 +1,5 @@
 {
-  "name": "cordova-plugin-alipay",
+  "name": "@wtto00/cordova-plugin-alipay",
   "version": "1.0.0",
   "description": "支付宝 cordova 插件",
   "types": "./types/index.d.ts",
