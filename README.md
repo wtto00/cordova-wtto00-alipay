@@ -56,3 +56,7 @@ cordova plugin add git@github.com:wtto00/cordova-plugin-alipay.git --variable AP
      }
    );
    ```
+
+---
+
+参考：[cordova-plugin-alipay-v2](https://github.com/hhjjj1010/cordova-plugin-alipay-v2)
