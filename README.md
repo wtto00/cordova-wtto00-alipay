@@ -1,11 +1,13 @@
-# cordova-plugin-alipay
+# cordova-wtto00-alipay
 
 cordova 支付宝支付插件，适配最新版本 2023/5/12
 
-- 支持最新版本支付宝 SDK（2023/5//12）
-- 支持安卓 13
-- 带有 TypeScript 类型支持
-- 附带完整注释
+参考：[cordova-plugin-alipay-v2](https://github.com/hhjjj1010/cordova-plugin-alipay-v2)
+
+- 🌟 支持最新版本支付宝 SDK（2023/5//12）
+- 🌟 支持安卓 13
+- 🌟 带有 TypeScript 类型支持
+- 🌟 附带完整注释
 
 ---
 
@@ -21,7 +23,7 @@ cordova 支付宝支付插件，适配最新版本 2023/5/12
 ## 安装
 
 ```shell
-cordova plugin add git@github.com:wtto00/cordova-plugin-alipay.git --variable APP_ID=your AppId
+cordova plugin add cordova-wtto00-alipay --variable APP_ID=your AppId
 ```
 
 ---
@@ -58,5 +60,3 @@ cordova plugin add git@github.com:wtto00/cordova-plugin-alipay.git --variable AP
    ```
 
 ---
-
-参考：[cordova-plugin-alipay-v2](https://github.com/hhjjj1010/cordova-plugin-alipay-v2)
