@@ -1,6 +1,6 @@
 {
   "name": "cordova-wtto00-alipay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "支付宝 cordova 插件",
   "types": "./types/index.d.ts",
   "cordova": {
