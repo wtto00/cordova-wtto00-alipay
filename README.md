@@ -1,5 +1,7 @@
 # cordova-wtto00-alipay
 
+[![npm](https://img.shields.io/npm/v/cordova-wtto00-alipay?logo=npm)](https://www.npmjs.com/package/cordova-wtto00-alipay)
+
 cordova 支付宝支付插件，适配最新版本 2023/5/12
 
 参考：[cordova-plugin-alipay-v2](https://github.com/hhjjj1010/cordova-plugin-alipay-v2)
@@ -13,10 +15,8 @@ cordova 支付宝支付插件，适配最新版本 2023/5/12
 
 ## 支持平台
 
-1. android
-2. ~~iOS~~
-
-> 暂不支持 IOS
+1. Android
+2. iOS
 
 ---
 
